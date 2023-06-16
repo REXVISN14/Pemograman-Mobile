@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:background="@drawable/bg3"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Biodata Mahasiswa"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM Mahasiswa"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edtnim"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/textfield"
+        android:hint="Masukkan NIM"
+        android:paddingLeft="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#BDA1A3"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edtnama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Masukkan Nama"
+        android:textSize="20dp"
+        android:textColorHint="#BDA1A3"
+        android:background="@drawable/textfield"
+        android:textColor="#fff"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edtjk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Pria/ Wanita"
+        android:textSize="20dp"
+        android:textColorHint="#BDA1A3"
+        android:textColor="#fff"
+        android:background="@drawable/textfield"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edtalamat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Jl. xxxx xxx"
+        android:textSize="20dp"
+        android:textColorHint="#BDA1A3"
+        android:textColor="#fff"
+        android:background="@drawable/textfield"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email@domain.com"
+        android:textSize="20dp"
+        android:textColorHint="#BDA1A3"
+        android:textColor="#fff"
+        android:background="@drawable/textfield"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnsimpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:text="Simpan"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btntampil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:text="Tampil"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:text="Edit"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnhapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textStyle="bold"
+            android:text="Hapus"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+</LinearLayout>
